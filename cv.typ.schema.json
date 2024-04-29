@@ -7,8 +7,7 @@
   "required": [
     "personal",
     "education",
-    "skills",
-    "languages"
+    "skills"
   ],
   "properties": {
     "personal": {
@@ -478,32 +477,6 @@
             }
           }
         }
-      }
-    },
-    "languages": {
-      "type": "array",
-      "default": [],
-      "items": {
-        "type": "object",
-        "required": [
-          "language",
-          "fluency"
-        ],
-        "properties": {
-          "language": {
-            "type": "string"
-          },
-          "fluency": {
-            "type": "string"
-          }
-        }
-      }
-    },
-    "interests": {
-      "type": "array",
-      "default": [],
-      "items": {
-        "type": "string"
       }
     },
     "references": {
